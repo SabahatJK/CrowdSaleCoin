@@ -51,7 +51,7 @@ contract PupperCoinSaleDeployer {
 
         uint256 goal = 300 ether;        
         uint256 cap = goal + 10 ether;
-        uint256 duration = 5 minutes;
+        uint256 duration = 24 hours;
         
         
         // create the PupperCoinSale and tell it about the token, set the goal, and set the open and close times to now and now + 24 weeks.
